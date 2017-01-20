@@ -35,5 +35,5 @@ and then open http://localhost:8000/documentation to view API documentation
 You should createat least (but not limitedto):
 ## unit test for the backend code 
     - Done
-## unit test fora React component 
+## unit test for a React component 
     - Not Done - due to lack of time
