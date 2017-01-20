@@ -11,6 +11,11 @@ This is a very simple React Memory.
 6. Remember what wasoneach cardandwhereit was.
 7. The game is over when all the cards have been matched
 
+### Instruction to open a card
+
+Double click to open a card to play.
+
+
 ## Requirements
 
 Install `yarn`, read how [here](https://yarnpkg.com/en/docs/install).
@@ -37,3 +42,4 @@ You should createat least (but not limitedto):
     - Done
 ## unit test for a React component 
     - Not Done - due to lack of time
+
