@@ -1,4 +1,4 @@
-# Ract Memory Game
+# React Memory Game
 
 This is a very simple React Memory.
 
