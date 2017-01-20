@@ -1,8 +1,15 @@
-# DPOrganizer React Boilerplate
+# Ract Memory Game
 
-[![Build Status](https://travis-ci.org/DPOrganizer/react-boilerplate.svg?branch=master)](https://travis-ci.org/DPOrganizer/react-boilerplate)
+This is a very simple React Memory.
 
-This is a very simple React boilerplate setup. It includes a basic starting point which you can start building from.
+### Game rules
+1. Mix up the cards.
+2. Lay them in rows, facedown.
+3. Turn over any twocards.
+4. If the two cards match,keepthem.
+5. If they don't match,turnthem back over.
+6. Remember what wasoneach cardandwhereit was.
+7. The game is over when all the cards have been matched
 
 ## Requirements
 
@@ -13,17 +20,20 @@ Install `yarn`, read how [here](https://yarnpkg.com/en/docs/install).
 Run the following commands:
 
 1. `git clone git@github.com:DPOrganizer/react-boilerplate.git`
-2. `cd react-boilerplate`
+2. `cd `
 3. `yarn install`
 
 To start the application you can now run: `yarn start`
 
-## Available commands
+### API
+For API Documentation please start the application on your local server with 
+```sh
+$ yarn start
+```
+and then open http://localhost:8000/documentation to view API documentation
 
-- `yarn lint` Run code linting
-- `yarn test` Run tests using jest
-- `yarn test-coverage` Run tests using jest and display coverage
-- `yarn build` Bundle the application
-- `yarn start` Run the development environment
-- `yarn deploy` Build the application in production mode
-- `yarn deploy-windows` Build the application in production mode under Windows
+You should createat least (but not limitedto):
+## unit test for the backend code 
+    - Done
+## unit test fora React component 
+    - Not Done - due to lack of time
